@@ -1,0 +1,66 @@
+.anaconda/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Virtual environments
+ryu-venv/
+.venv/
+venv/
+env/
+
+# Conda / pyenv
+miniconda3/
+.conda/
+.pyenv/
+
+# Installers / archives
+*.sh
+*.tar.gz
+*.zip
+*.deb
+
+# Logs & temp files
+*.log
+*.tmp
+*.swp
+*~
+.DS_Store
+
+# IDE / editor
+.vscode/
+.idea/
+.vscode-server/
+*.kate-swp
+
+# System / shell
+.bash_history
+.bash_logout
+.bashrc
+.profile
+.Xauthority
+.xsession-errors
+.sudo_as_admin_successful
+.cache/
+.config/
+.local/
+.ssh/
+.gnupg/
+.dotnet/
+
+# Claude / tool caches
+.claude/
+.claude.json
+
+# Wireshark
+wireshark
+wireshark/
+
+# Misc system files
+.wget-hsts
